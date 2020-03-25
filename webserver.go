@@ -14,7 +14,7 @@ func main() {
 //以下コメント...
 
 //Handle関数:
-//HandleはHandler型のオブジェクトと、それを(何が？)呼び出す文字列を紐づける
+//HandleはHandler型のオブジェクトと、それを呼び出す文字列を紐づける
 
 //Handler型:
 //インターフェース型で、ServeHTTPをメソッドとして持つ
