@@ -13,13 +13,13 @@ package main
 
 import (
 	"fmt"
-    "reflect"
+	"reflect"
 )
 
 type U int
 
 type I interface {
-	T()
+    T()
 }
 
 func main() {	
@@ -29,9 +29,9 @@ func main() {
     
     //Instantiation of I
     var i I
-    
+	
     //Assign u to i
-	i = u
+    i = u
 	
     i.T()
 }
