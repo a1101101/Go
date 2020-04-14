@@ -1,8 +1,8 @@
 /*
 An interface is a group of methods which are to be attached to whatever data type you want to use.
-Declaration of interface I requires only the name of its method and the type of the returned value.
+Declaration of an interface requires only the name of its method and the type of the returned value.
 Instantiation of interface I means an instance of type I having the methods of I is being made.
-You can assign an instance of any type to an instance of an interface. 
+You can assign an instance of any type to an instance of an interface.
 
 Below, U is instantiated as "u:=...".
 Then, u U is assigned to interface i I as "i=u".
@@ -36,7 +36,7 @@ func main() {
     i.T()
 }
 
-//Define T() as a method for 
+//Define T() as a method for U
 func (u U) T(){
     fmt.Println(reflect.TypeOf(u))
 }
