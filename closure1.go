@@ -14,8 +14,9 @@ func main() {
         sum += x
         return sum
     }
-	for i := 0; i < 10; i++ {
-		fmt.Println(f(i))
+    
+    for i := 0; i < 10; i++ {
+	fmt.Println(f(i))
         fmt.Println(sum)
-	}
+    }
 }
