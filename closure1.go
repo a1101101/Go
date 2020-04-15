@@ -9,7 +9,7 @@ import "fmt"
 
 func main() {
     sum := 0
-    //closure f which refers to sum outside its body 
+    //closure f which references sum outside its body 
     var f = func(x int) int{
         sum += x
         return sum
