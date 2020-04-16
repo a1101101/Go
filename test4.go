@@ -7,6 +7,7 @@ Below, U is instantiated as "u:=...".
 Then, u U is assigned to interface i I as "i=u".
 
 Note that the T() method is called as a method for i I in func main, but defined as a method for u U.
+This is mentioned in the official tutorial "Tour of Go" as an implicit implementation of an interface. 
 */
 package main
 
