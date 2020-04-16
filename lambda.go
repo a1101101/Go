@@ -1,5 +1,5 @@
 /*
-Simple lambda expression, equivalent of "auto f = [&]([args]){...}" in C++.
+Go's closure is equivalent of C++'s lambda expression such like "auto f = [&]([args]){...}".
 */
 package main
 
