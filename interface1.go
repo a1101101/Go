@@ -27,7 +27,7 @@ func main() {
     u := U(3)
     fmt.Println(reflect.TypeOf(u))
     
-    //Instantiation of I
+    //Instansiation of I
     var i I
 	
     //Assign u to i
