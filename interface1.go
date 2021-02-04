@@ -16,9 +16,10 @@ import (
 	"reflect"
 )
 
+//Declaring type U
 type U int
 
-//Declaring I
+//Declaring interface I
 type I interface {
     T()
 }
