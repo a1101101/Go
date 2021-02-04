@@ -25,11 +25,11 @@ type I interface {
 }
 
 func main() {	
-    //Instansiation of U
+    //Instantiation of U
     u := U(3)
     fmt.Println(reflect.TypeOf(u))
     
-    //Instansiation of I
+    //Instantiation of I
     var i I
 	
     //Assign u to i
