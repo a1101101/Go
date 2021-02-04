@@ -1,7 +1,7 @@
 /*
-An interface is a group of methods which are to be attached to whatever data type you want to use.
-Declaration of an interface requires only the name of its method and the type of the returned value.
-Instantiation of interface I means an instance of type I having the methods of I is being made.
+An interface is a group of methods which are to be attached to a certain data type.
+Declaring an interface requires only the name of its method and the type of the returned value.
+Instantiation of I creates an instance of type I with methods of I.
 
 Below, U is instantiated as "u:=...".
 Then, u U is assigned to interface i I as "i=u".
@@ -18,6 +18,7 @@ import (
 
 type U int
 
+//Declaring I
 type I interface {
     T()
 }
