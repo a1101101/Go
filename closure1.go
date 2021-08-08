@@ -1,5 +1,5 @@
 /*
-Go's closure is equivalent of C++'s lambda expression such like "auto f = [&]([args]){...}".
+Go's closure is similiar to C++'s lambda expression such like "auto f = [&]([args]){...}".
 */
 package main
 
